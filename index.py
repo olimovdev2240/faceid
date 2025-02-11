@@ -6,10 +6,10 @@ import requests
 
 # 📌 MySQL bazaga ulanish (OpenServer uchun, parolsiz)
 db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="",  # Root parolsiz ishlaydi
-    database="faceid"
+    host="sql10.freesqldatabase.com",
+    user="sql10762256",
+    password="olimovdev1011",  # Root parolsiz ishlaydi
+    database="sql10762256"
 )
 cursor = db.cursor()
 
